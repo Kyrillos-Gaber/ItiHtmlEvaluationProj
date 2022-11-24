@@ -1,0 +1,12 @@
+:root {
+  --main-clr: #FF7361;
+  --fill-clr: #F3F3F3;
+  --white: #fff;
+  --light-gray: #373B44;
+  --dark-gray: #2F3239;
+  --gray: #464646;
+}
+
+/* a[href="./about.html"] {
+  background-color: var(--main-clr);
+} */
