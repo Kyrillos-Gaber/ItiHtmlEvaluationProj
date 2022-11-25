@@ -1,5 +1,6 @@
 :root {
   --main-clr: #FF7361;
+  --dark-main: #c75748;
   --fill-clr: #F3F3F3;
   --white: #fff;
   --light-gray: #373B44;
@@ -7,6 +8,50 @@
   --gray: #464646;
 }
 
-/* a[href="./about.html"] {
+.red-nav {
   background-color: var(--main-clr);
-} */
+  color: #2F3239;
+  padding: 5px;
+}
+
+.red-nav span {
+  color: var(--white);
+}
+
+.my-about {
+  color: var(--dark-gray);
+  background-color: var(--fill-clr);
+  text-align: center;
+  padding: 5px 25px 25px 25px;
+}
+
+.team-line {
+  background-color: var(--main-clr);
+  margin: 20px 0px;
+  align-items: center;
+}
+
+.team-line i {
+  background-color: var(--dark-main);
+  padding: 10px;
+}
+
+.team-line h4 {
+  padding-left: 15px;
+}
+
+.team {
+  width: 20%;
+  text-align: center;
+  color: var(--light-gray);
+  font-size: 11px;
+}
+
+.team img {
+  width: 100%;
+  padding: 10% 25%;
+  background-color: var(--fill-clr);
+}
+.team p:last-child {
+  margin-top: 8px;
+}
