@@ -18,6 +18,7 @@
 body {
   color: var(--white);
   font-family: sans-serif;
+  position: relative;
 }
 
 .flex-row {
@@ -45,6 +46,14 @@ body {
   flex-wrap: wrap;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+.gap {
+  gap: 10px;
+}
+
 .right {
   justify-content: right;
 }
@@ -64,7 +73,7 @@ body {
 }
 
 .main-content {
-  height: 80.8vh;
+  min-height: 80.8vh;
 }
 
 nav li {
@@ -101,16 +110,27 @@ nav a:focus {
 
 .home-up {
   background-color: var(--main-clr);
-  height: 45vh;
+  min-height: 44.9vh;
 }
 
 .home-down {
-  height: 36vh;
+  min-height: 35.9vh;
+}
+
+body::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
 }
 
 footer {
   background-color: var(--gray);
-  
+  width: 100%;
+  bottom: 0px;
+  height: 50px;
+  position: sticky;
 }
 
 footer .container div {
@@ -171,4 +191,21 @@ footer i {
   font-size: 15px;
   color: var(--gray);
   margin: 7px;
+}
+
+.red-nav {
+  background-color: var(--main-clr);
+  color: #2F3239;
+  padding: 5px;
+}
+
+.red-nav span {
+  color: var(--white);
+}
+
+.gray-bar {
+  color: var(--dark-gray);
+  background-color: var(--fill-clr);
+  text-align: center;
+  padding: 5px 25px 25px 25px;
 }

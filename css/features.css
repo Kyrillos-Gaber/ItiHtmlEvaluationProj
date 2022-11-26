@@ -1,0 +1,41 @@
+:root {
+  --main-clr: #FF7361;
+  --fill-clr: #F3F3F3;
+  --white: #fff;
+  --light-gray: #373B44;
+  --dark-gray: #2F3239;
+  --gray: #464646;
+}
+
+.left-side {
+  width: 60vh;
+  padding: 10px;
+}
+
+.pay-plan {
+  width: 37vh;
+  color: var(--dark-gray);
+  text-align: center;
+  margin: 20px;
+}
+
+.pay-plan p, .pay-plan h3 {
+  border: 1px var(--fill-clr) solid;
+  padding: 10px;
+}
+
+.colored {
+  color: var(--main-clr);
+  background-color: var(--fill-clr);
+}
+
+.colored strong {
+  font-size: 40px;
+}
+
+.pay-plan button {
+  padding: 10px;
+  color: var(--white);
+  background-color: var(--light-gray);
+  border: none;
+}

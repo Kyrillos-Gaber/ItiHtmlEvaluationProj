@@ -1,0 +1,79 @@
+:root {
+  --main-clr: #FF7361;
+  --fill-clr: #F3F3F3;
+  --white: #fff;
+  --light-gray: #373B44;
+  --dark-gray: #2F3239;
+  --gray: #464646;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+
+.blog {
+  margin: 25px;
+}
+
+.blog-info {
+  color: var(--light-gray);
+  opacity: .6;
+  font-size: 12px;
+}
+
+.blog-info div, .blog-info i, .blog-info p {
+  margin: 2px;
+}
+
+.blog-content {
+  color: var(--dark-gray);
+  width: 60%;
+  margin-left: 2%;
+}
+
+.blog-content p {
+  font-size: 13px;
+}
+
+.blog-content i {
+  text-align: center;
+  width: 100%;
+  font-size: 100px;
+  align-self: center;
+  background-color: var(--fill-clr);
+  padding: 15px 0px;
+}
+
+.blog-content button {
+  color: var(--white);
+  background-color: var(--dark-gray);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.right-side {
+  width: 70%;
+  color: var(--dark-gray);
+}
+
+.right-side ul li {
+  font-size: 14px;
+}
+
+.right-side ul li:not(li:last-child) {
+  border-bottom: 1px var(--fill-clr) dashed;
+}
+
+.right-side ul li i {
+  color: var(--main-clr);
+  margin: 10px 15px 10px 0px;
+}
+
+.right-side input {
+  margin-top: 10px;
+  padding: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+}
