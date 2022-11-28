@@ -31,3 +31,34 @@ iframe {
   width: 20%;
   padding: 20px;
 }
+
+form input {
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+form input:nth-child(1), form input:nth-child(2) {
+  width: 40%;
+}
+
+form textarea {
+  height: 200px;
+  padding: 5px;
+  width: 90%;
+  max-width: 90%;
+}
+
+form button {
+  margin: 10px 0px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  color: var(--white);
+  background-color: var(--dark-gray);
+}
+
+.contact h3, .send-msg h3 {
+  margin: 20px 0px;
+  padding: 20px 0px;
+
+}
